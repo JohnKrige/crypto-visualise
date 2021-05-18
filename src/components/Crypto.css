@@ -1,0 +1,95 @@
+/* Tick mark styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.coin-title {
+    color: #137B80;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.currency-menu__title--cryp{
+    color: #137B80;
+}
+
+.horizontal-line {
+    stroke: #C0C0BB;
+}
+
+.vertical-line{
+    stroke: rgb(240, 240, 240);
+}
+
+.axis-label{
+    font-size: 20px;
+    fill: #8E6C8A;
+}
+
+.circle-mark{
+    fill: transparent;
+}
+
+.marks path{
+    fill: none;
+    stroke: #137B80;
+    stroke-width: 1;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.axis-text{
+    fill: #635F5D;
+    font-size: 13px;
+}
+
+.selectors-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.currency-menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.currency-menu__title{
+    font-size: 15px;
+    padding-left: 5px;
+    color: #635F5D;
+}
+
+.currency-menu--currency .chip{
+    background-color: #8E6C8A;
+}
+
+.currency-menu--coin .chip{
+    background-color: #137B80;
+}
+
+/* For the multi-select dropdowns */
+.multiselect-container{
+    width: 230px;
+}
+
+.search-wrapper{
+    display: flex;
+}
+
+/* For the single dropdown*/
+.Dropdown-option, .Dropdown-placeholder{
+    font-size: 13px;
+    color: #635F5D;
+}
+
+.crypto-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
